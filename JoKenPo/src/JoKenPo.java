@@ -12,9 +12,7 @@ public class JoKenPo {
 
 		System.out.println(":::JoKenPo:::\n");
 		
-		System.out.println("1. Pedra");
-		System.out.println("2. Papel");
-		System.out.println("3. Tesoura");
+		System.out.println("1. Pedra | 2. Papel | 3. Tesoura");
 		System.out.println("Digite a opcao desejada: ");
 
 		//logica do jogador
@@ -22,13 +20,13 @@ public class JoKenPo {
 		player = ler.nextInt();
 		switch(player){
 		case 1:
-			System.out.println("\nJogador escolheu Pedra");
+			System.out.println("\n" + playerName + " escolheu Pedra");
 			break;
 		case 2:
-			System.out.println("\nJogador escolheu Papel");
+			System.out.println("\n" + playerName + " escolheu Papel");
 			break;
 		case 3:
-			System.out.println("\nJogador escolheu Tesoura");
+			System.out.println("\n"+ playerName + " escolheu Tesoura");
 			break;
 		default:
 			System.out.println("\nOpcao invalida");
